@@ -20,10 +20,10 @@ body::-webkit-scrollbar-thumb:hover {
     background: #202942;  /* Same color on hover (change if needed) */
 }
 
-#topnav a, #topnav a:focus, #topnav .logo, #topnav .logo:focus
-{
+#topnav a, #topnav a:focus, #topnav .logo, #topnav .logo:focus{
     color: #fff !important;
 }
+
 #topnav.nav-sticky .logo, #topnav.nav-sticky .logo:focus
 #topnav.nav-sticky a:focus, #topnav.nav-sticky a{
     color: #000 !important;
