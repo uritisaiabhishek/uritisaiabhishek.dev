@@ -1,0 +1,180 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Savories",
+            "slug": "savories",
+            "description": "savories",
+            "category": 1,
+            "tags": ["react", "scss", "bootstrap"],
+            "url": null,
+            "startDate": null,
+            "endDate": null,
+            "location": null,
+            "client": null,
+            "featuredImage": null,
+            "testimonial": null
+        },
+        {
+            "id": 2,
+            "title": "Titan Nepal",
+            "slug": "titan-nepal",
+            "description": "savories",
+            "category": 4,
+            "tags": ["wordpress", "css", "php"],
+            "url": "https://ntn.com.np/",
+            "startDate": null,
+            "endDate": null,
+            "location": "Remote",
+            "client": "Nepal Trade Network",
+            "featuredImage": "assets/projects/ntn/homepage.png",
+            "testimonial": null
+        },
+        {
+            "id": 3,
+            "title": "SRK Charity",
+            "slug": "srk-charity",
+            "description": "savories",
+            "category": 4,
+            "tags": ["react", "scss", "bootstrap"],
+            "url": "https://www.srkcharity.org/",
+            "startDate": null,
+            "endDate": null,
+            "location": null,
+            "client": null,
+            "featuredImage": null,
+            "testimonial": null
+        },
+        {
+            "id": 4,
+            "title": "Ecorp",
+            "slug": "ecorp",
+            "description": "savories",
+            "category": 4,
+            "tags": ["react", "scss", "bootstrap"],
+            "url": "https://ecorpbusiness.com/in",
+            "startDate": null,
+            "endDate": null,
+            "location": null,
+            "client": null,
+            "featuredImage": null,
+            "testimonial": null
+        }
+    ],
+    "projectCategories": [
+        {
+            "id": 1,
+            "name": "Web App",
+            "slug": "web-app"
+        },
+        {
+            "id": 2,
+            "name": "Android App",
+            "slug": "android-app"
+        },
+        {
+            "id": 3,
+            "name": "IOS App",
+            "slug": "ios-app"
+        },
+        {
+            "id": 4,
+            "name": "Website",
+            "slug": "website"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "React Js",
+            "proficiency": 70
+        },
+        {
+            "id": 3,
+            "name": "HTML5",
+            "proficiency": 95
+        },
+        {
+            "id": 4,
+            "name": "CSS3",
+            "proficiency": 90
+        },
+        {
+            "id": 5,
+            "name": "Bootstrap 4",
+            "proficiency": 90
+        },
+        {
+            "id": 6,
+            "name": "Bootstrap 5",
+            "proficiency": 90
+        },
+        {
+            "id": 7,
+            "name": "SCSS",
+            "proficiency": 80
+        },
+        {
+            "id": 8,
+            "name": "JavaScript",
+            "proficiency": 90
+        },
+        {
+            "id": 9,
+            "name": "Node.js",
+            "proficiency": 50
+        },
+        {
+            "id": 10,
+            "name": "WordPress",
+            "proficiency": 90
+        },
+        {
+            "id": 11,
+            "name": "Firebase",
+            "proficiency": 30
+        }
+    ],
+    "experience": [
+        {
+            "id": 1,
+            "company": "Freelancer",
+            "job role": "Freelance Web Developer",
+            "fromDate": "2022-02-14T00:00:00.000Z",
+            "toDate": "2023-09-30T00:00:00.000Z",
+            "description": "",
+            "companyLogo": "",
+            "location": "Remote"
+        },
+        {
+            "id": 2,
+            "company": "Intuily",
+            "job role": "Software Developer Trainee",
+            "fromDate": "2022-02-14T00:00:00.000Z",
+            "toDate": "2023-09-30T00:00:00.000Z",
+            "description": "Designing User Friendly Designs with various CSS Frameworks like Tailwind and bootstrap, Converting Designs between frameworks.",
+            "companyLogo": "assets/logos/intuilyhealth_logo.jpeg",
+            "location": "Remote"
+        },
+        {
+            "id": 3,
+            "company": "MSR Cosmos",
+            "job role": "Software Developer Trainee",
+            "fromDate": "2022-02-14T00:00:00.000Z",
+            "toDate": "2023-09-30T00:00:00.000Z",
+            "description": "Backend Expertise: Specialized in building robust APIs and handling data retrieval from MySQL databases using Node.js and the Express framework. Focused on optimizing data processing to ensure seamless performance and enhance the overall user experience.\n\nFront End Expertise: Contributed to frontend development using React.js, collaborating with the frontend team while working on backend and WordPress tasks.\n\nWordPress Expertise: Developed and customized WordPress websites to meet clients' specific requirements. Created new WordPress themes from HTML design files and ensured a user-friendly backend experience with seamless performance.",
+            "companyLogo": "assets/logos/msrcosmos_llc_logo.jpeg",
+            "location": "Hyderabad, India"
+        },
+        {
+            "id": 4,
+            "company": "Keka",
+            "job role": "WordPress Developer",
+            "fromDate": "2023-10-04T00:00:00.000Z",
+            "toDate": null,
+            "description": "",
+            "companyLogo": "assets/logos/kekalogo.jpeg",
+            "location": "Hyderabad, India"
+        }
+    ]
+}

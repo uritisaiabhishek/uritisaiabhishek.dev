@@ -1,0 +1,49 @@
+/* Customize the scrollbar width */
+body::-webkit-scrollbar {
+    width: 8px; /* Adjust the scrollbar width */
+}
+
+/* Style the scrollbar track */
+body::-webkit-scrollbar-track {
+    background: #dcdef7; 
+    border-radius: 10px; /* Rounded edges for the track */
+}
+
+/* Style the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+    background-color: #202942; /* Dark thumb color */
+    border-radius: 10px; /* Match with track border-radius */
+}
+
+/* Style the scrollbar thumb on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #202942;  /* Same color on hover (change if needed) */
+}
+
+#topnav a, #topnav a:focus, #topnav .logo, #topnav .logo:focus
+{
+    color: #fff !important;
+}
+#topnav.nav-sticky .logo, #topnav.nav-sticky .logo:focus
+#topnav.nav-sticky a:focus, #topnav.nav-sticky a{
+    color: #000 !important;
+}
+
+#topnav .navigation-menu>li.active>a, #topnav .navigation-menu>li:hover>a{
+    color: #fff !important;
+    /* border-bottom:3px solid #fff !important; */
+    border-radius: 0 0 5px 5px;
+}
+#topnav.nav-sticky .navigation-menu>li.active>a, #topnav.nav-sticky .navigation-menu>li:hover>a{
+    color: #202942 !important;
+    /* border-bottom:3px solid #202942 !important; */
+    border-radius: 0 0 5px 5px;
+}
+
+
+.portfolio_card img{
+    width: 463px;
+    height: 219px;
+    object-fit: cover;
+    aspect-ratio: 463/219;
+}
