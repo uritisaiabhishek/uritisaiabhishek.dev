@@ -28,7 +28,7 @@ function CookiePopup() {
                     This website uses cookies to provide you with a great user experience. By using it, you accept our <a href="https://shreethemes.in" target="_blank" className="text-success h6">use of cookies</a>.
                 </p>
                 <div className="cookie-popup-actions text-end">
-                    <button onClick={handleCloseCookiePopup} name="close cookie policy notice">
+                    <button onClick={handleCloseCookiePopup} aria-label="close cookie policy notice">
                         <i className="uil uil-times text-dark fs-4"></i>
                     </button>
                 </div>
