@@ -1,4 +1,10 @@
 User-agent: *
-Disallow:
+
+Disallow: /private/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /sensitive-data/
 
 Sitemap: https://uritisaiabhishek.dev/sitemap.xml
+
+
