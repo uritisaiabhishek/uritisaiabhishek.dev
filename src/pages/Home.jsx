@@ -10,9 +10,7 @@ function Home() {
         {/* Hero Start */}
         <section 
             className="bg-half-260 d-table w-100" 
-            // style={{background: 'url("assets/images/work/bg-portfolio.jpg") center center',}}
-            // style={{background: 'url("assets/background-hero.jpg") center center',}}
-            style={{background: 'url("assets/background-1.jpg") top center', backgroundPosition: "center"}}
+            style={{background: 'url("/assets/imageswork/bg-portfolio.jpg") top center', backgroundPosition: "center"}}
         >
             <div className="bg-overlay bg-overlay-white" style={{opacity: "0.2"}}></div>
             <div className="container">
