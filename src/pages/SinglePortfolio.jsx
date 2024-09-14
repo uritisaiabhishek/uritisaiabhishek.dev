@@ -9,7 +9,7 @@ function SinglePortfolio({props}) {
     const project  = data.projects.filter(x => x.slug === projectName)[0];
     return (
         <>
-            <PageBanner pagename={project.title} featuredImage={project.featuredImage} />
+            <PageBanner pagename={project.title} />
             
             {/* Start Work Detail */}
             <section className="section">
