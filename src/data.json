@@ -59,6 +59,21 @@
             "client": null,
             "featuredImage": null,
             "testimonial": null
+        },
+        {
+            "id": 5,
+            "title": "SEO Best Resources",
+            "slug": "seo-best-resources",
+            "description": "savories",
+            "category": 4,
+            "tags": ["google chrome extension"],
+            "url": "https://ecorpbusiness.com/in",
+            "startDate": null,
+            "endDate": null,
+            "location": null,
+            "client": null,
+            "featuredImage": null,
+            "testimonial": null
         }
     ],
     "projectCategories": [
@@ -81,6 +96,11 @@
             "id": 4,
             "name": "Website",
             "slug": "website"
+        },
+        {
+            "id": 5,
+            "name": "Google chrome Extension",
+            "slug": "chrome-extension"
         }
     ],
     "skills": [
