@@ -27,7 +27,7 @@
             "endDate": null,
             "location": "Remote",
             "client": "Nepal Trade Network",
-            "featuredImage": "assets/projects/ntn/homepage.png",
+            "featuredImage": "/assets/projects/ntn/homepage.png",
             "testimonial": null
         },
         {
