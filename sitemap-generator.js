@@ -9,13 +9,13 @@ const pathsConfig = {
     { id: 4 },
     { id: 5 },
   ],
-  '/blog/:blogTitle': [
-    { id: 1 },
-    { id: 2 },
-    { id: 3 },
-    { id: 4 },
-    { id: 5 },
-  ],
+  // '/blog/:blogTitle': [
+  //   { id: 1 },
+  //   { id: 2 },
+  //   { id: 3 },
+  //   { id: 4 },
+  //   { id: 5 },
+  // ],
 };
 
 function generateSitemap() {
