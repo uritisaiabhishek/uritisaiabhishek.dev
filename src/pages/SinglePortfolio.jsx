@@ -19,7 +19,10 @@ function SinglePortfolio({props}) {
                             <div className="work-detail">
                                 <h4 className="title mb-3">Introduction of Project :</h4>
                                 {project.description}
-                                <img src={project.featuredImage} alt={project.title} className='img-fluid' />
+                                {
+                                    project.featuredImage && 
+                                    <img src={project.featuredImage} alt={project.title} className='img-fluid' />
+                                }
                                 {
                                     project.testimonial && (
                                         <blockquote className="blockquote text-center mt-4 mb-0 p-md-4">
