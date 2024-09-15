@@ -25,7 +25,7 @@ function CookiePopup() {
         {showCookiePopup && (
             <div className="card cookie-popup shadow rounded py-3 px-4">
                 <p className="text-muted mb-0">
-                    This website uses cookies to provide you with a great user experience. By using it, you accept our <a href="https://shreethemes.in" target="_blank" className="text-success h6">use of cookies</a>.
+                    This website uses cookies to provide you with a great user experience. By using it, you accept our <a href="/privacy-policy" target="_blank" className="text-primary h6">use of cookies</a>.
                 </p>
                 <div className="cookie-popup-actions text-end">
                     <button onClick={handleCloseCookiePopup} aria-label="close cookie policy notice" title="close cookie policy notice">
