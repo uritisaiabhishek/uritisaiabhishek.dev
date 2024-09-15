@@ -1,6 +1,6 @@
 import React from 'react'
 import PageBanner from '../components/PageBanner'
-import SocialShare from '../components/SocialShare'
+import SocialShare from '../components/Socialmedia'
 import data from '../data.json';
 import { Link } from 'react-router-dom';
 import ContactForm from '../components/ContactForm';

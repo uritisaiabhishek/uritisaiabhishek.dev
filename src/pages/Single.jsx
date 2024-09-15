@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialShare from '../components/SocialShare'
+import SocialmediaLinks from '../components/Socialmedia'
 import PageBanner from '../components/PageBanner'
 
 function Single() {
@@ -312,7 +312,7 @@ function Single() {
                                         Social Media
                                     </span>
 
-                                    <SocialShare />
+                                    <SocialmediaLinks />
                                 </div>
                                 {/* SOCIAL */}
                             </div>

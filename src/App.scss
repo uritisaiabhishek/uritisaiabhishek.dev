@@ -40,10 +40,27 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 0 0 5px 5px;
 }
 
-
+footer .social-icon li a{
+    color: #fff;
+    border-color: #adb5bd;
+}
 .portfolio_card img{
     width: 463px;
     height: 219px;
     object-fit: cover;
     aspect-ratio: 463/219;
+}
+
+
+.container-filter.filter-border li {
+    color: #434f5f !important;
+    border-bottom: 2px solid transparent;
+}
+
+.text-muted {
+    color: #434f5f !important;
+}
+
+.text-success {
+    color: #11915d !important;
 }

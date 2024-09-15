@@ -9,7 +9,7 @@ function Portfoliocard({details}) {
             <div className="card border-0 work-container work-primary work-creative position-relative d-block overflow-hidden rounded">
                 <div className="card-body p-0">
                     <div className="position-relative overflow-hidden">
-                        <img src={details.featuredImage || "assets/images/work/13.jpg"} className="img-fluid" alt={details.title} />
+                        <img src={details.featuredImage || "assets/images/work/13.jpg"} className="img-fluid" alt={details.title} loading="lazy" />
                         <div className="overlay-grid"></div>
                     </div>
                     <div className="content p-4">
