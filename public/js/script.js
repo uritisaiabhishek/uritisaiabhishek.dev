@@ -36,40 +36,40 @@
     window.onload = function () {
 
         var parallaxBox = document.getElementById('parallax');
-        var
-            c1left = document.getElementById('l1').offsetLeft,
-            c1top = document.getElementById('l1').offsetTop,
-            c2left = document.getElementById('l2').offsetLeft,
-            c2top = document.getElementById('l2').offsetTop,
-            c3left = document.getElementById('l3').offsetLeft,
-            c3top = document.getElementById('l3').offsetTop,
-            c4left = document.getElementById('l4').offsetLeft,
-            c4top = document.getElementById('l4').offsetTop,
-            c5left = document.getElementById('l5').offsetLeft,
-            c5top = document.getElementById('l5').offsetTop,
-            c6left = document.getElementById('l6').offsetLeft,
-            c6top = document.getElementById('l6').offsetTop,
-            c7left = document.getElementById('l7').offsetLeft,
-            c7top = document.getElementById('l7').offsetTop,
-            c8left = document.getElementById('l8').offsetLeft,
-            c8top = document.getElementById('l8').offsetTop,
-            c9left = document.getElementById('l9').offsetLeft,
-            c9top = document.getElementById('l9').offsetTop;
+        if (!parallaxBox) return; // stop if #parallax not found
+    
+        function getOffset(id) {
+            const el = document.getElementById(id);
+            return el ? { left: el.offsetLeft, top: el.offsetTop } : null;
+        }
+        
+        const positions = {
+            l1: getOffset('l1'),
+            l2: getOffset('l2'),
+            l3: getOffset('l3'),
+            l4: getOffset('l4'),
+            l5: getOffset('l5'),
+            l6: getOffset('l6'),
+            l7: getOffset('l7'),
+            l8: getOffset('l8'),
+            l9: getOffset('l9')
+        };
 
         parallaxBox.onmousemove = function (event) {
             event = event || window.event;
             var x = event.clientX - parallaxBox.offsetLeft,
                 y = event.clientY - parallaxBox.offsetTop;
 
-            mouseParallax('l1', c1left, c1top, x, y, 5);
-            mouseParallax('l2', c2left, c2top, x, y, 25);
-            mouseParallax('l3', c3left, c3top, x, y, 20);
-            mouseParallax('l4', c4left, c4top, x, y, 35);
-            mouseParallax('l5', c5left, c5top, x, y, 30);
-            mouseParallax('l6', c6left, c6top, x, y, 45);
-            mouseParallax('l7', c7left, c7top, x, y, 30);
-            mouseParallax('l8', c8left, c8top, x, y, 25);
-            mouseParallax('l9', c9left, c9top, x, y, 40);
+            // Only apply parallax if element exists
+            if (positions.l1) mouseParallax('l1', positions.l1.left, positions.l1.top, x, y, 5);
+            if (positions.l2) mouseParallax('l2', positions.l2.left, positions.l2.top, x, y, 25);
+            if (positions.l3) mouseParallax('l3', positions.l3.left, positions.l3.top, x, y, 20);
+            if (positions.l4) mouseParallax('l4', positions.l4.left, positions.l4.top, x, y, 35);
+            if (positions.l5) mouseParallax('l5', positions.l5.left, positions.l5.top, x, y, 30);
+            if (positions.l6) mouseParallax('l6', positions.l6.left, positions.l6.top, x, y, 45);
+            if (positions.l7) mouseParallax('l7', positions.l7.left, positions.l7.top, x, y, 30);
+            if (positions.l8) mouseParallax('l8', positions.l8.left, positions.l8.top, x, y, 25);
+            if (positions.l9) mouseParallax('l9', positions.l9.left, positions.l9.top, x, y, 40);
         };
 
     };
