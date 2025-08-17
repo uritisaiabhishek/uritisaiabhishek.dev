@@ -1,0 +1,10 @@
+.my_experience{
+    
+}
+.my_experience .experience_card img{ 
+ height: auto;
+ max-height: 60px;
+ width: 150px;
+ object-fit: contain;
+ margin-bottom: 20px;
+}

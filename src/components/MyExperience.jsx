@@ -4,17 +4,28 @@ function MyExperience() {
     const [experiences, setExperiences] = useState([
         {
             id: 1,
+            company: "GE Appliances",
+            role: "Salesforce Developer",
+            location: "Hyderabad, India",
+            duration: {
+                from: "May 2025",
+                to: null
+            },
+            logo: "/images/experience/ge_logo.png"
+        },
+        {
+            id: 2,
             company: "Keka HR Payroll Software",
             role: "Web Developer",
             location: "Hyderabad, India",
             duration: {
                 from: "Oct 2023",
-                to: null
+                to: "May 2025"
             },
             logo: "/images/experience/Keka.svg"
         },
         {
-            id: 2,
+            id: 3,
             company: "Msrcosmos",
             role: "Software Engineer Trainee",
             location: "Hyderabad, India",
@@ -25,7 +36,7 @@ function MyExperience() {
             logo: "/images/experience/msrcosmos.svg"
         },
         {
-            id: 3,
+            id: 4,
             company: "Freelance",
             role: "Front End Developer",
             location: "Remote",
@@ -35,7 +46,7 @@ function MyExperience() {
             }
         },
         {
-            id: 4,
+            id: 5,
             company: "Intuily Inc",
             role: "Software Engineer Intern",
             location: "Remote",
@@ -50,7 +61,7 @@ function MyExperience() {
     return (
         <>
             {/* <!-- experience --> */}
-            <section className="section">
+            <section className="section my_experience">
                 <div className="container">
                     <div className="row justify-content-around">
                         <div className="col-lg-12 text-center">
@@ -58,7 +69,7 @@ function MyExperience() {
                         </div>
                         {
                             experiences.map(experience => (
-                                <div key={experience.id} className="col-lg-3 col-md-4 text-center">
+                                <div key={experience.id} className="col-lg-4 col-md-6 text-center experience_card">
                                     <img src={ experience.logo ? experience.logo : `images/experience/icon-1.png`} className='experience_logo' alt={experience.company} />
                                     <p className="mb-0">{experience.duration.from} - {experience.duration.to ? experience.duration.to: "Current"}</p>
                                     <h4>{experience.role}</h4>
