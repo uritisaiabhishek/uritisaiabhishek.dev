@@ -1,0 +1,37 @@
+name: Deploy React App to Vultr
+
+on:
+  push:
+    branches:
+      - main  # trigger on main branch push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'  # match your Node version
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build Project
+      run: npm run build
+
+    - name: Deploy to Server
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.VULTR_SERVER_IP }}
+        username: ${{ secrets.VULTR_USER }}
+        key: ${{ secrets.VULTR_SSH_KEY }}
+        port: 22
+        script: |
+          rm -rf /var/www/uritisaiabhishek.dev/*  
+          cp -r ./dist/* /var/www/uritisaiabhishek.dev/
+          sudo systemctl restart nginx
