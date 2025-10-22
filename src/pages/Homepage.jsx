@@ -5,7 +5,6 @@ import PortfolioSection from '../components/PortfolioSection'
 import Testimonials from '../components/Testimonials'
 import { Link } from 'react-router-dom'
 import MyEducation from '../components/MyEducation'
-
 import MySkills from '../components/MySkills'
 import MyExperience from '../components/MyExperience'
 import SocialMedia from '../components/SocialMedia'
