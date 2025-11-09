@@ -10,6 +10,7 @@ import 'swiper/css';
 import './custom.css';
 
 import { ToastContainer, toast } from 'react-toastify';
+import WebInspectorPromo from "./pages/SeoAudit";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route index path="/" element={<Homepage />} />
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/seo-audit-chrome-extension" element={<WebInspectorPromo />} />
             <Route path="/contact" element={<Contact />} />
 
           </Routes>
